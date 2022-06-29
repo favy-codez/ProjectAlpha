@@ -85,3 +85,92 @@
     display: none !important;
 }
 /*Favours part ends here*/
+
+/*Franklin parts starts here*/
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+/*    font-family: 'Lobster', cursive;*/
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 1.5em;
+    background:  hsl(0, 0%, 98%);
+    height: 100%;
+}
+img{
+    width: 80%;
+    margin-top: 5em;
+
+
+}
+
+.hero-p{
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    color:  hsl(227, 12%, 61%);
+    margin: .3em;
+
+}
+.hero-heading{
+  padding-top: 3em;
+    font-size: 2em;
+    width: 350px;
+    font-weight: 550;
+    color: hsl(233, 12%, 13%) ;
+    
+    
+}
+.hero-left{
+    padding: 1.4em;
+}
+.hero-section{
+ text-align: left;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.7em;
+}
+.hero-button{
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color:  hsl(12, 88%, 59%) ;
+    color: whitesmoke;
+    font-size: .8em;
+    font-weight: bold;
+    border-radius: 5pc;
+    margin: .5em;
+    cursor:pointer;
+}
+.hero-button:hover{
+    opacity: .9;
+    box-shadow: 0 10px 15px rgba(65, 65, 65, 0.61);
+}
+@media (max-width:768px) {
+    .hero-container{
+        display: block;
+        text-align: center;
+    }
+    .hero-p{
+        width: 90%;
+        letter-spacing: 1px;
+        padding: 12px;
+        margin: 0 auto;
+
+    }
+    .hero-heading{
+        width: 100%;
+        padding-top: 0em;
+    }
+    .hero-img{
+        margin-bottom: .9rem;
+        
+    }
+}
+/* Franklin CSS ends here*/
