@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
+    overflow: hidden;
+    
 }
 
 /*Favours part starts here*/
