@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
-    overflow: hidden;
+   
     
 }
 
@@ -142,6 +142,7 @@ nav{
 header{
     background:  hsl(0, 0%, 98%);
     margin: 0 auto;
+    overflow: hidden;
     padding: 0;
     
 }
