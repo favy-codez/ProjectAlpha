@@ -208,6 +208,9 @@ section .hero-section{
         padding: 1em;
         
     }
+    header{
+        width: 100%;
+    }
    
     .nav_btn button{
         display: none;
