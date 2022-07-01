@@ -128,13 +128,21 @@ nav{
     font-size: 15px;
 
 }
+.nav-links li a:hover{
+    color: hsl(227, 18%, 90%);
+}
 .nav_btn button{
     background-color: hsl(12, 88%, 59%);
-    padding: 10px 30px;
+    padding: 12px 20px;
     border: none;
-    color: hsl(0, 0%, 98%);
-    border-radius: 5pc;
+    color: hsl(0, 7%, 92%);
+    border-radius: 6pc;
+    font-weight: bold;
     outline: none;
+}
+.nav_btn button:hover{
+    opacity: .9;
+    box-shadow: 0 10px 15px rgba(65, 65, 65, 0.61);
 }
 .ham-buger{
     display: none;
@@ -170,15 +178,15 @@ section .hero-section{
 }
 .hero-heading{
   padding-top: 3em;
-    font-size: 2em;
+    font-size: 2.5em;
     width: 350px;
     font-weight: 700;
     color:#242D52;
-    
+    padding-bottom: 1em;
     
 }
 .hero-left{
-    padding: 1.4em;
+    padding: 1.5em;
 }
 .hero-section{
  text-align: left;
